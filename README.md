@@ -4,7 +4,7 @@ This is an n8n community node. It lets you use **Superion S1** in your n8n workf
 
 Superion S1 by Punky Tiger Labs is a calibrated decision API: send a text and typed questions
 (yes/no, choice, score) and get one calibrated probability per question in a single call, without
-generating text (~0.3 s p50). Use it to triage tickets, moderate content, score leads, route
+generating text (sub-second). Use it to triage tickets, moderate content, score leads, route
 requests or gate actions in a workflow.
 
 [n8n](https://n8n.io/) is a [fair-code licensed](https://docs.n8n.io/reference/license/) workflow automation platform.
@@ -77,7 +77,7 @@ the uncertain items to a person.
 
 **#1 of 213 on S1MB English v1 — Task Average 75.06 · Borda 89.88 (Nov 2026)** —
 [leaderboard](https://huggingface.co/datasets/hotchpotch/s1mb-result).
-Calibrated probabilities, one call, no text generation, ~0.3 s p50. Built on Gemma 4 26B-A4B, INT4 experts.
+Calibrated probabilities, one call, no text generation, sub-second. Built on Gemma 4 26B-A4B, INT4 experts.
 
 | Plan | Price |
 |---|---|
