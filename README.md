@@ -42,7 +42,7 @@ to also get the full API answer. The node is marked *usable as tool*, so AI Agen
 
 ## Credentials
 
-1. Get a free key (100 M input tokens per day, permanent) at https://punkytigerlabs.com/s1/.
+1. Get a free key (20 M input tokens per day, permanent) at https://punkytigerlabs.com/s1/.
 2. In n8n create a **Superion S1 API** credential and paste the key (`s1k_…`). Leave the base URL as is.
 
 The credential test calls `GET /v1/usage`.
@@ -75,13 +75,13 @@ the uncertain items to a person.
 
 ## About Superion S1
 
-**#1 of 213 on S1MB English v1 — Task Average 75.06 · Borda 89.88 (Nov 2026)** —
+**#1 of 214 on S1MB English v1 — Task Average 75.06 · Borda 89.82 (12 Nov 2026)** —
 [leaderboard](https://huggingface.co/datasets/hotchpotch/s1mb-result).
-Calibrated probabilities, one call, no text generation, sub-second. Built on Gemma 4 26B-A4B, INT4 experts.
+Calibrated probabilities, one call, no text generation, sub-second, deterministic within a pinned model version. Built on Gemma 4 26B-A4B, INT4 experts.
 
 | Plan | Price |
 |---|---|
-| Free | 100 M input tokens per day per key, permanent |
+| Free | 20 M input tokens per day per key, permanent |
 | Prepaid | 0.042 USD per million input tokens, output free |
 | Contract | dedicated key, price on request |
 
